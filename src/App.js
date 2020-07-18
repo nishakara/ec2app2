@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import image from '../src/20200711_120955.jpg';
 
 function App() {
   return (
@@ -19,7 +20,12 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
+          
         >
+        
+        <img class = "sets"
+              src={image}
+        />
           
         </a>
       </header>
